@@ -1,0 +1,21 @@
+# ninja log v6
+5	76	7938409490877614	asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-mkdir	6a942922cd452f91
+5	76	7938409490877614	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-mkdir	6a942922cd452f91
+77	2250	7938409512611674	asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-download	c260ea2017239d60
+77	2250	7938409512611674	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-download	c260ea2017239d60
+2250	2427	7938409512691671	asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-update	c4172d549dee6252
+2250	2427	7938409512691671	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-update	c4172d549dee6252
+2427	2493	7938409515038681	asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-patch	ccc6e11f951cb732
+2427	2493	7938409515038681	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-patch	ccc6e11f951cb732
+2493	2561	7938409515728153	asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-configure	4b082367d17ca43d
+2493	2561	7938409515728153	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-configure	4b082367d17ca43d
+2561	2628	7938409516389081	asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-build	310b7b9d64abd4d5
+2561	2628	7938409516389081	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-build	310b7b9d64abd4d5
+2629	2700	7938409517119391	asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-install	6d157e3a96e218ca
+2629	2700	7938409517119391	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-install	6d157e3a96e218ca
+2700	2767	7938409517780074	asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-test	5d97b730ec20a452
+2700	2767	7938409517780074	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-test	5d97b730ec20a452
+2767	2859	7938409518703110	CMakeFiles/asp2-populate-complete	a1fd48e005cf6626
+2767	2859	7938409518703110	asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-done	a1fd48e005cf6626
+2767	2859	7938409518703110	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/CMakeFiles/asp2-populate-complete	a1fd48e005cf6626
+2767	2859	7938409518703110	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/asp2-subbuild/asp2-populate-prefix/src/asp2-populate-stamp/asp2-populate-done	a1fd48e005cf6626

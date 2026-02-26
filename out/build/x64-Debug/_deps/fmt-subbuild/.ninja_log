@@ -1,0 +1,21 @@
+# ninja log v6
+5	76	7938409440223304	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	f7ce2555ea25d7dc
+5	76	7938409440223304	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	f7ce2555ea25d7dc
+76	4090	7938409480350156	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	3427f25731990a27
+76	4090	7938409480350156	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	3427f25731990a27
+4090	4281	7938409480435365	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	59463158ae4d70a0
+4090	4281	7938409480435365	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	59463158ae4d70a0
+4281	4350	7938409482965592	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	876091588f183422
+4281	4350	7938409482965592	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	876091588f183422
+4351	4417	7938409483634868	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	8ab24f95a3cde901
+4351	4417	7938409483634868	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	8ab24f95a3cde901
+4417	4486	7938409484319138	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	638cdce6359c24c0
+4417	4486	7938409484319138	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	638cdce6359c24c0
+4486	4554	7938409485004046	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	a3f23f555b5988fb
+4486	4554	7938409485004046	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	a3f23f555b5988fb
+4554	4620	7938409485665785	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	1538dc9ae20720de
+4554	4620	7938409485665785	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	1538dc9ae20720de
+4620	4712	7938409486577721	CMakeFiles/fmt-populate-complete	5b92e39ec3942d44
+4620	4712	7938409486577721	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	5b92e39ec3942d44
+4620	4712	7938409486577721	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	5b92e39ec3942d44
+4620	4712	7938409486577721	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	5b92e39ec3942d44

@@ -1,0 +1,591 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						19,
+						20
+					]
+				},
+				{
+					"build" : "geode",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-geode-Debug-7675557d166022b603b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/Admin/Documents/Geode"
+				},
+				{
+					"build" : "_deps/result-build",
+					"jsonFile" : "directory-_deps.result-build-Debug-a2db01a6fc157f231bbf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "out/build/x64-Debug/_deps/result-src"
+				},
+				{
+					"build" : "_deps/json-build",
+					"jsonFile" : "directory-_deps.json-build-Debug-22ac37aaee65079284db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "out/build/x64-Debug/_deps/json-src"
+				},
+				{
+					"build" : "_deps/nontype_functional-build",
+					"jsonFile" : "directory-_deps.nontype_functional-build-Debug-d2e16fd434778bdd1309.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "out/build/x64-Debug/_deps/nontype_functional-src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30
+					]
+				},
+				{
+					"build" : "_deps/fmt-build",
+					"jsonFile" : "directory-_deps.fmt-build-Debug-e8316872249b681b22c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "out/build/x64-Debug/_deps/fmt-src",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "_deps/asp2-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.asp2-build-Debug-7581a6d0decfc1014933.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "out/build/x64-Debug/_deps/asp2-src",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "_deps/arc-build",
+					"jsonFile" : "directory-_deps.arc-build-Debug-9cf1f9d1805d8f89a840.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "out/build/x64-Debug/_deps/arc-src",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "_deps/tuliphook-build",
+					"jsonFile" : "directory-_deps.tuliphook-build-Debug-421a994b88ae1103bbe0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 8,
+					"source" : "out/build/x64-Debug/_deps/tuliphook-src"
+				},
+				{
+					"build" : "bindings",
+					"jsonFile" : "directory-bindings-Debug-0a1447698999d2549912.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 9,
+					"source" : "out/build/x64-Debug/_deps/bindings-src",
+					"targetIndexes" : 
+					[
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Level-Notes-gd",
+					"targetIndexes" : 
+					[
+						19,
+						20
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "geode-sdk",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "GeodeResult",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "mat-json",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "nontype_functional",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "FMT",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "asp",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "arc",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "TulipHookRoot",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "GeodeBindings",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Continuous::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-Continuous-Debug-b991aeebcfc0cfbff163.json",
+					"name" : "Continuous",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousBuild::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ContinuousBuild-Debug-d4832ef76b2af392638c.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousConfigure::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ContinuousConfigure-Debug-a0b0984f430427eb3752.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousCoverage::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ContinuousCoverage-Debug-64255e7fc46148f199dd.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousMemCheck::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-71d6ee637ed99a646a24.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousStart::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ContinuousStart-Debug-35557cdfc848c0805ea7.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousSubmit::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ContinuousSubmit-Debug-32799be3a1edf6e6d0ce.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousTest::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ContinuousTest-Debug-f334d71006009d69577d.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousUpdate::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ContinuousUpdate-Debug-66c3563b690874d0c80d.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Experimental::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-Experimental-Debug-e6086950c8c2338c03fe.json",
+					"name" : "Experimental",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalBuild::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ExperimentalBuild-Debug-eabbcd84d90c6c3a6f29.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalConfigure::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-71ec0b3f8ca1c1c4f7da.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalCoverage::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-998c891f5ff518a28856.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalMemCheck::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-f23b12f7cf01287d9d97.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalStart::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ExperimentalStart-Debug-0112f516491c1618b4c4.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalSubmit::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-df4105f4378738857769.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalTest::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ExperimentalTest-Debug-2f4b3a79246843cb117a.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalUpdate::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-b1907e17878f88c1e566.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "GeodeBindings::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-GeodeBindings-Debug-4fe55930b02f68c384ea.json",
+					"name" : "GeodeBindings",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Level-Notes-gd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Level-Notes-gd-Debug-e8c48ade09bc2f570bef.json",
+					"name" : "Level-Notes-gd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Level-Notes-gd_PACKAGE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Level-Notes-gd_PACKAGE-Debug-f6d6293609fbc1798ffb.json",
+					"name" : "Level-Notes-gd_PACKAGE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Nightly::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-Nightly-Debug-a3c072d1907778f38368.json",
+					"name" : "Nightly",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyBuild::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-NightlyBuild-Debug-7c23001941598c92972c.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyConfigure::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-NightlyConfigure-Debug-69dcd9ea9fdbedd0b72d.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyCoverage::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-NightlyCoverage-Debug-18d9c0df5dabe90d3db1.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyMemCheck::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-NightlyMemCheck-Debug-c871a3a52edef06ddbe2.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyMemoryCheck::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-c6059f9c68baa35e2229.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyStart::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-NightlyStart-Debug-68eec2761c00b874c3a1.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlySubmit::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-NightlySubmit-Debug-09c6f3ffb23836d0b17e.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyTest::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-NightlyTest-Debug-5d788d0e4b2a5825f337.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyUpdate::@ea86fd96e7b9184e2565",
+					"jsonFile" : "target-NightlyUpdate-Debug-57316306bdc128a2de10.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "arc::@e884022648736a3b8942",
+					"jsonFile" : "target-arc-Debug-de24ce3e1b6869ad70a2.json",
+					"name" : "arc",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "asp::@923cebb4b49503e63f6c",
+					"jsonFile" : "target-asp-Debug-c7ec8b65aec15e3377ff.json",
+					"name" : "asp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fmt::@976f4f0bee90b99ecdb6",
+					"jsonFile" : "target-fmt-Debug-6bde9ab9a39f06c436b9.json",
+					"name" : "fmt",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug",
+		"source" : "C:/Users/Admin/Documents/Level-Notes-gd"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

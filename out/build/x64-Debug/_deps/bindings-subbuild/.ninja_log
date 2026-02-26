@@ -1,0 +1,21 @@
+# ninja log v6
+5	77	7938409221488102	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-mkdir	4ec06e428d9acfe4
+5	77	7938409221488102	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-mkdir	4ec06e428d9acfe4
+78	9202	7938409312712405	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-download	7ea4890a54eefb04
+78	9202	7938409312712405	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-download	7ea4890a54eefb04
+9206	11340	7938409312853472	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-update	52285ee5994704ba
+9206	11340	7938409312853472	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-update	52285ee5994704ba
+11341	11410	7938409334829779	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-patch	6918600a19fde0e4
+11341	11410	7938409334829779	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-patch	6918600a19fde0e4
+11411	11481	7938409335530097	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-configure	a4d230d548eae44f
+11411	11481	7938409335530097	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-configure	a4d230d548eae44f
+11481	11555	7938409336252355	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-build	406e53fe9009538b
+11481	11555	7938409336252355	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-build	406e53fe9009538b
+11555	11632	7938409337015691	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-install	85419fc35eb675e1
+11555	11632	7938409337015691	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-install	85419fc35eb675e1
+11633	11717	7938409337899537	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-test	4e6bd3449d1c8074
+11633	11717	7938409337899537	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-test	4e6bd3449d1c8074
+11718	11815	7938409338861673	CMakeFiles/bindings-populate-complete	f70c28aec02d7936
+11718	11815	7938409338861673	bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-done	f70c28aec02d7936
+11718	11815	7938409338861673	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/CMakeFiles/bindings-populate-complete	f70c28aec02d7936
+11718	11815	7938409338861673	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/bindings-subbuild/bindings-populate-prefix/src/bindings-populate-stamp/bindings-populate-done	f70c28aec02d7936

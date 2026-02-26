@@ -1,0 +1,21 @@
+# ninja log v6
+6	79	7938409522178849	arc-populate-prefix/src/arc-populate-stamp/arc-populate-mkdir	2fe607b68c5682c
+6	79	7938409522178849	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/arc-populate-prefix/src/arc-populate-stamp/arc-populate-mkdir	2fe607b68c5682c
+79	2149	7938409542889142	arc-populate-prefix/src/arc-populate-stamp/arc-populate-download	e46be958096485a1
+79	2149	7938409542889142	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/arc-populate-prefix/src/arc-populate-stamp/arc-populate-download	e46be958096485a1
+2149	2329	7938409542961565	arc-populate-prefix/src/arc-populate-stamp/arc-populate-update	faadecc8859b88e5
+2149	2329	7938409542961565	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/arc-populate-prefix/src/arc-populate-stamp/arc-populate-update	faadecc8859b88e5
+2330	2398	7938409545374916	arc-populate-prefix/src/arc-populate-stamp/arc-populate-patch	968773c7287d4f3f
+2330	2398	7938409545374916	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/arc-populate-prefix/src/arc-populate-stamp/arc-populate-patch	968773c7287d4f3f
+2398	2465	7938409546041454	arc-populate-prefix/src/arc-populate-stamp/arc-populate-configure	1cd332d200ff5a76
+2398	2465	7938409546041454	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/arc-populate-prefix/src/arc-populate-stamp/arc-populate-configure	1cd332d200ff5a76
+2465	2534	7938409546733718	arc-populate-prefix/src/arc-populate-stamp/arc-populate-build	603c04e0b2cfd1ff
+2465	2534	7938409546733718	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/arc-populate-prefix/src/arc-populate-stamp/arc-populate-build	603c04e0b2cfd1ff
+2535	2602	7938409547410167	arc-populate-prefix/src/arc-populate-stamp/arc-populate-install	9f57de74b390fa91
+2535	2602	7938409547410167	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/arc-populate-prefix/src/arc-populate-stamp/arc-populate-install	9f57de74b390fa91
+2602	2669	7938409548078221	arc-populate-prefix/src/arc-populate-stamp/arc-populate-test	bc555da7bd6ac14e
+2602	2669	7938409548078221	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/arc-populate-prefix/src/arc-populate-stamp/arc-populate-test	bc555da7bd6ac14e
+2669	2761	7938409549006395	CMakeFiles/arc-populate-complete	a022f40a20cbadb
+2669	2761	7938409549006395	arc-populate-prefix/src/arc-populate-stamp/arc-populate-done	a022f40a20cbadb
+2669	2761	7938409549006395	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/CMakeFiles/arc-populate-complete	a022f40a20cbadb
+2669	2761	7938409549006395	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/arc-subbuild/arc-populate-prefix/src/arc-populate-stamp/arc-populate-done	a022f40a20cbadb

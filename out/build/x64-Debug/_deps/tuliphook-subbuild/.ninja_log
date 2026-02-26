@@ -1,0 +1,21 @@
+# ninja log v6
+6	79	7938409552469986	tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-mkdir	792ec8aaea724e54
+6	79	7938409552469986	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-mkdir	792ec8aaea724e54
+79	2198	7938409573660698	tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-download	ce0f83447ab92958
+79	2198	7938409573660698	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-download	ce0f83447ab92958
+2199	2374	7938409573740704	tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-update	1ecd72a66f424c5b
+2199	2374	7938409573740704	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-update	1ecd72a66f424c5b
+2374	2440	7938409576081391	tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-patch	e06624f8f11b9e0c
+2374	2440	7938409576081391	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-patch	e06624f8f11b9e0c
+2440	2506	7938409576740863	tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-configure	a1a458fc43c17430
+2440	2506	7938409576740863	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-configure	a1a458fc43c17430
+2506	2573	7938409577408811	tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-build	2e2b49e10ad0d14
+2506	2573	7938409577408811	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-build	2e2b49e10ad0d14
+2573	2640	7938409578076150	tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-install	c30f1364062fd67d
+2573	2640	7938409578076150	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-install	c30f1364062fd67d
+2640	2706	7938409578743936	tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-test	7b4d304bbcca4862
+2640	2706	7938409578743936	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-test	7b4d304bbcca4862
+2706	2798	7938409579658783	CMakeFiles/tuliphook-populate-complete	64b1f5fcbe406b9d
+2706	2798	7938409579658783	tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-done	64b1f5fcbe406b9d
+2706	2798	7938409579658783	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/CMakeFiles/tuliphook-populate-complete	64b1f5fcbe406b9d
+2706	2798	7938409579658783	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/tuliphook-subbuild/tuliphook-populate-prefix/src/tuliphook-populate-stamp/tuliphook-populate-done	64b1f5fcbe406b9d

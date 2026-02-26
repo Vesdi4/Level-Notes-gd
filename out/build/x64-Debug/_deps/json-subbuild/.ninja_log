@@ -1,0 +1,21 @@
+# ninja log v6
+5	74	7938409372314529	json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	cd88b65aed0b25a8
+5	74	7938409372314529	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	cd88b65aed0b25a8
+75	2362	7938409395190564	json-populate-prefix/src/json-populate-stamp/json-populate-download	ac1af29eb3779f3f
+75	2362	7938409395190564	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-download	ac1af29eb3779f3f
+2362	2541	7938409395261749	json-populate-prefix/src/json-populate-stamp/json-populate-update	3ce3884e5d103943
+2362	2541	7938409395261749	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update	3ce3884e5d103943
+2541	2616	7938409397724502	json-populate-prefix/src/json-populate-stamp/json-populate-patch	f44b002c00579d98
+2541	2616	7938409397724502	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch	f44b002c00579d98
+2616	2692	7938409398488618	json-populate-prefix/src/json-populate-stamp/json-populate-configure	54ad8a1ddea947f0
+2616	2692	7938409398488618	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure	54ad8a1ddea947f0
+2692	2790	7938409399310405	json-populate-prefix/src/json-populate-stamp/json-populate-build	6db7014a2312515d
+2692	2790	7938409399310405	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build	6db7014a2312515d
+2790	2950	7938409401064236	json-populate-prefix/src/json-populate-stamp/json-populate-install	699dc5a20e24f1aa
+2790	2950	7938409401064236	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install	699dc5a20e24f1aa
+2951	3029	7938409401851000	json-populate-prefix/src/json-populate-stamp/json-populate-test	3da8c7dbc20bd0e4
+2951	3029	7938409401851000	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test	3da8c7dbc20bd0e4
+3029	3143	7938409402999690	CMakeFiles/json-populate-complete	ed4f49c30f7c375e
+3029	3143	7938409402999690	json-populate-prefix/src/json-populate-stamp/json-populate-done	ed4f49c30f7c375e
+3029	3143	7938409402999690	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/CMakeFiles/json-populate-complete	ed4f49c30f7c375e
+3029	3143	7938409402999690	C:/Users/Admin/Documents/Level-Notes-gd/out/build/x64-Debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-done	ed4f49c30f7c375e

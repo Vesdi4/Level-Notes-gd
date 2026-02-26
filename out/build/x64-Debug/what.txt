@@ -1,0 +1,14 @@
+{
+	"geode": "5.0.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "vesdi4.level-notes",
+	"name": "Level Notes",
+	"version": "v0.0.4",
+	"developer": "Vesdi4",
+	"description": "Add personal notes to any level - track your progress, tips, and reminders."
+}
