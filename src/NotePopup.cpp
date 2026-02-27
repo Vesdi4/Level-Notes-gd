@@ -13,15 +13,28 @@ NotePopup* NotePopup::create(std::string levelKey, std::function<void(std::strin
 }
 
 bool NotePopup::init(std::string levelKey, std::function<void(std::string)> callback) {
-    if (!Popup::init(300.f, 220.f)) return false;
+    if (!FLAlertLayer::init(150)) return false;
 
     m_levelKey = levelKey;
     m_callback = callback;
 
-    this->setTitle("Level Note");
+    auto winSize = CCDirector::sharedDirector()->getWinSize();
 
-    float cx = m_mainLayer->getContentWidth() / 2;
-    float cy = m_mainLayer->getContentHeight() / 2;
+    float popW = 300.f;
+    float popH = 220.f;
+
+    auto bg = CCScale9Sprite::create("GJ_square01.png");
+    bg->setContentSize({ popW, popH });
+    bg->setPosition(winSize / 2);
+    m_mainLayer->addChild(bg, -1);
+
+    auto title = CCLabelBMFont::create("Level Note", "goldFont.fnt");
+    title->setScale(0.7f);
+    title->setPosition({ winSize.width / 2, winSize.height / 2 + 88.f });
+    m_mainLayer->addChild(title);
+
+    float cx = winSize.width / 2;
+    float cy = winSize.height / 2;
 
     auto inputBg = CCScale9Sprite::create("square02b_001.png");
     inputBg->setContentSize({ 250.f, 100.f });
@@ -35,10 +48,9 @@ bool NotePopup::init(std::string levelKey, std::function<void(std::string)> call
     m_input->setLabelPlaceholderColor({ 150, 150, 150 });
     m_input->setLabelPlaceholderScale(0.45f);
     m_input->setMaxLabelScale(0.45f);
+    m_input->setDelegate(this);
     m_input->setPosition({ cx, cy + 15.f });
     m_mainLayer->addChild(m_input, 10);
-
-    CCTouchDispatcher::get()->addTargetedDelegate(m_input, -500, true);
 
     auto saved = Mod::get()->getSavedValue<std::string>(m_levelKey, "");
     if (!saved.empty()) {
@@ -48,7 +60,7 @@ bool NotePopup::init(std::string levelKey, std::function<void(std::string)> call
     auto hint = CCLabelBMFont::create("Max 200 characters", "chatFont.fnt");
     hint->setScale(0.35f);
     hint->setColor({ 180, 180, 180 });
-    hint->setPosition({ cx, 52.f });
+    hint->setPosition({ cx, cy - 62.f });
     m_mainLayer->addChild(hint);
 
     auto saveBtn = CCMenuItemSpriteExtra::create(
@@ -63,16 +75,38 @@ bool NotePopup::init(std::string levelKey, std::function<void(std::string)> call
         menu_selector(NotePopup::onClear)
     );
 
-    auto menu = CCMenu::create();
-    menu->addChild(saveBtn);
-    menu->addChild(clearBtn);
-    menu->setLayout(RowLayout::create()->setGap(10.f));
-    menu->setContentWidth(260.f);
-    menu->updateLayout();
-    menu->setPosition({ cx, 28.f });
-    m_mainLayer->addChild(menu);
+    auto closeBtn = CCMenuItemSpriteExtra::create(
+        CCSprite::createWithSpriteFrameName("GJ_closeBtn_001.png"),
+        this,
+        menu_selector(NotePopup::keyBackClicked)
+    );
+    closeBtn->setScale(0.8f);
 
+    auto btnMenu = CCMenu::create();
+    btnMenu->addChild(saveBtn);
+    btnMenu->addChild(clearBtn);
+    btnMenu->setLayout(RowLayout::create()->setGap(10.f));
+    btnMenu->setContentWidth(260.f);
+    btnMenu->updateLayout();
+    btnMenu->setPosition({ cx, cy - 83.f });
+    m_mainLayer->addChild(btnMenu);
+
+    auto closeMenu = CCMenu::create();
+    closeMenu->addChild(closeBtn);
+    closeMenu->setPosition({ winSize.width / 2 - popW / 2 + 3.f, winSize.height / 2 + popH / 2 - 3.f });
+    m_mainLayer->addChild(closeMenu);
+
+    this->show();
     return true;
+}
+
+void NotePopup::registerWithTouchDispatcher() {
+    CCTouchDispatcher::get()->addTargetedDelegate(this, -504, true);
+}
+
+void NotePopup::keyBackClicked() {
+    this->setKeypadEnabled(false);
+    this->removeFromParent();
 }
 
 void NotePopup::onSave(CCObject*) {
@@ -88,9 +122,8 @@ void NotePopup::onSave(CCObject*) {
         m_callback(text);
     }
 
-    CCTouchDispatcher::get()->removeDelegate(m_input);
     Notification::create("Note saved!", NotificationIcon::Success, 1.5f)->show();
-    this->onClose(nullptr);
+    this->keyBackClicked();
 }
 
 void NotePopup::onClear(CCObject*) {
