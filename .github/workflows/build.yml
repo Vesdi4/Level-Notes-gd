@@ -6,6 +6,9 @@ on:
     tags:
       - "v*"
 
+permissions:
+  contents: write
+
 jobs:
   build:
     strategy:
@@ -34,8 +37,7 @@ jobs:
     runs-on: ${{ matrix.config.os }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Build mod
         uses: geode-sdk/build-geode-mod@main
@@ -53,13 +55,7 @@ jobs:
         uses: geode-sdk/build-geode-mod/combine@main
         id: combine
 
-      - name: Upload artifact (optional)
-        uses: actions/upload-artifact@v4
-        with:
-          name: geode-mod
-          path: ${{ steps.combine.outputs.build-output }}
-
-      - name: Create GitHub Release and upload .geode
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           files: ${{ steps.combine.outputs.build-output }}
