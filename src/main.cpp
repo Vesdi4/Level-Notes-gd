@@ -9,14 +9,13 @@ static std::string getLevelKey(GJGameLevel* level) {
 }
 
 static bool hasNote(GJGameLevel* level) {
-    auto note = Mod::get()->getSavedValue<std::string>(getLevelKey(level), "");
-    return !note.empty();
+    return !Mod::get()->getSavedValue<std::string>(getLevelKey(level), "").empty();
 }
 
 class $modify(MyLevelInfoLayer, LevelInfoLayer) {
 
     struct Fields {
-        CCSprite* noteIndicator = nullptr;
+        CCSprite* dot = nullptr;
     };
 
     bool init(GJGameLevel * level, bool challenge) {
@@ -31,14 +30,13 @@ class $modify(MyLevelInfoLayer, LevelInfoLayer) {
         dot->setPosition({ btnSpr->getContentWidth() - 3.f, btnSpr->getContentHeight() - 3.f });
         dot->setVisible(hasNote(level));
         btnSpr->addChild(dot, 1);
-        m_fields->noteIndicator = dot;
+        m_fields->dot = dot;
 
         auto btn = CCMenuItemSpriteExtra::create(
             btnSpr,
             this,
             menu_selector(MyLevelInfoLayer::onNoteButton)
         );
-        btn->setID("note-btn");
 
         auto leftMenu = this->getChildByID("left-side-menu");
         if (leftMenu) {
@@ -56,13 +54,9 @@ class $modify(MyLevelInfoLayer, LevelInfoLayer) {
     }
 
     void onNoteButton(CCObject*) {
-        auto level = m_level;
-        auto indicator = m_fields->noteIndicator;
-
-        NotePopup::create(getLevelKey(level), [indicator](std::string note) {
-            if (indicator) {
-                indicator->setVisible(!note.empty());
-            }
+        auto dot = m_fields->dot;
+        NotePopup::create(getLevelKey(m_level), [dot](std::string note) {
+            if (dot) dot->setVisible(!note.empty());
             })->show();
     }
 };

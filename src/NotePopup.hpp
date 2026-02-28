@@ -1,5 +1,6 @@
 #pragma once
 #include <Geode/Geode.hpp>
+#include <Geode/ui/TextInput.hpp>
 
 using namespace geode::prelude;
 
@@ -10,10 +11,9 @@ public:
 protected:
     std::string m_levelKey;
     std::function<void(std::string)> m_callback;
-    CCTextInputNode* m_input = nullptr;
+    TextInput* m_input = nullptr;
 
     bool init(std::string levelKey, std::function<void(std::string)> callback);
-
     void onSave(CCObject*);
     void onClear(CCObject*);
 };
