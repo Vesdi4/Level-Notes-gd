@@ -11,53 +11,30 @@ permissions:
 
 jobs:
   build:
-    strategy:
-      fail-fast: false
-      matrix:
-        config:
-          - name: Windows
-            os: windows-latest
-
-          - name: macOS
-            os: macos-latest
-
-          - name: iOS
-            os: macos-latest
-            target: iOS
-
-          - name: Android32
-            os: ubuntu-latest
-            target: Android32
-
-          - name: Android64
-            os: ubuntu-latest
-            target: Android64
-
-    name: Build ${{ matrix.config.name }}
-    runs-on: ${{ matrix.config.os }}
+    runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Geode SDK
+        run: |
+          geode sdk install latest
+          geode sdk install-binaries
 
       - name: Build mod
         uses: geode-sdk/build-geode-mod@main
         with:
           combine: true
-          target: ${{ matrix.config.target }}
+          target: Windows
 
-  package:
-    name: Create Release
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
-      - name: Combine builds
-        uses: geode-sdk/build-geode-mod/combine@main
-        id: combine
+      - name: Copy .geode for release
+        run: cp ./artifacts/geode-build-win/*.geode ./vesdi4.level-notes.geode
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: ${{ steps.combine.outputs.build-output }}
+          files: vesdi4.level-notes.geode
+          overwrite_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
