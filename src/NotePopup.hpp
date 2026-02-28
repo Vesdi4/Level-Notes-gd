@@ -3,7 +3,7 @@
 
 using namespace geode::prelude;
 
-class NotePopup : public FLAlertLayer, public TextInputDelegate {
+class NotePopup : public Popup {
 public:
     static NotePopup* create(std::string levelKey, std::function<void(std::string)> callback);
 
@@ -13,9 +13,6 @@ protected:
     CCTextInputNode* m_input = nullptr;
 
     bool init(std::string levelKey, std::function<void(std::string)> callback);
-
-    void registerWithTouchDispatcher() override;
-    void keyBackClicked() override;
 
     void onSave(CCObject*);
     void onClear(CCObject*);
