@@ -11,30 +11,53 @@ permissions:
 
 jobs:
   build:
-    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - name: Windows
+            os: windows-latest
+            target: Windows
+          - name: macOS
+            os: macos-latest
+            target: macOS
+
+    name: ${{ matrix.config.name }}
+    runs-on: ${{ matrix.config.os }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Geode SDK
-        run: |
-          geode sdk install latest
-          geode sdk install-binaries
+      - name: Setup Geode CLI
+        uses: geode-sdk/setup-geode@v1
+        with:
+          version: latest
 
       - name: Build mod
         uses: geode-sdk/build-geode-mod@main
         with:
           combine: true
-          target: Windows
+          target: ${{ matrix.config.target }}
 
-      - name: Copy .geode for release
-        run: cp ./artifacts/geode-build-win/*.geode ./vesdi4.level-notes.geode
+      - name: Copy .geode to root for release
+        run: |
+          mkdir -p ./release-files
+          cp ./artifacts/geode-build-${{ matrix.config.name | lower }}/*.geode ./release-files/vesdi4.level-notes-${{ matrix.config.name | lower }}.geode
 
-      - name: Create GitHub Release
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Upload .geode files to Release
         uses: softprops/action-gh-release@v2
         with:
-          files: vesdi4.level-notes.geode
+          files: release-files/*.geode
           overwrite_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
