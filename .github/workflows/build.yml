@@ -48,16 +48,21 @@ jobs:
         uses: geode-sdk/build-geode-mod/combine@main
         id: combine
 
+      - name: Find and copy geode file
+        run: |
+          find . -name "*.geode" -type f
+          cp $(find . -name "*.geode" -type f | head -1) ./mod.geode
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: geode-mod
-          path: ${{ steps.combine.outputs.build-output }}
+          path: ./mod.geode
 
       - name: Create GitHub Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: ${{ steps.combine.outputs.build-output }}/*.geode
+          files: ./mod.geode
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
