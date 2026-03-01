@@ -61,17 +61,18 @@ jobs:
         run: |
           GEODE_FILE=$(find /home/runner/work/_actions/geode-sdk/build-geode-mod/main/combine/artifacts -name "*.geode" -type f | head -1)
           echo "Found: $GEODE_FILE"
-          cp "$GEODE_FILE" ./mod.geode
+          cp "$GEODE_FILE" ./$(basename "$GEODE_FILE")
+        id: copy
 
       - uses: actions/upload-artifact@v4
         with:
           name: Build Output
-          path: ./mod.geode
+          path: ./*.geode
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: ./mod.geode
+          files: ./*.geode
           tag_name: ${{ steps.version.outputs.version }}
           name: ${{ steps.version.outputs.version }}
           generate_release_notes: true
