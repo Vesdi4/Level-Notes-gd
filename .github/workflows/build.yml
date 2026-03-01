@@ -50,8 +50,9 @@ jobs:
 
       - name: Find and copy geode file
         run: |
-          find . -name "*.geode" -type f
-          cp $(find . -name "*.geode" -type f | head -1) ./mod.geode
+          GEODE_FILE=$(find /home/runner/work/_actions/geode-sdk/build-geode-mod/main/combine/artifacts -name "*.geode" -type f | head -1)
+          echo "Found: $GEODE_FILE"
+          cp "$GEODE_FILE" ./mod.geode
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
