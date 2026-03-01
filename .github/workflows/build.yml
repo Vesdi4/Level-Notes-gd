@@ -58,6 +58,6 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: ${{ steps.combine.outputs.build-output }}
+          files: ${{ steps.combine.outputs.build-output }}/*.geode
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
